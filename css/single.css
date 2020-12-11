@@ -1,0 +1,316 @@
+/* blog page */
+h6.blog-first {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h6.blog-first span {
+    color: #bd2130;
+}
+
+ul.blog_list li {
+    display: inline-block;
+    color: #777;
+}
+
+h5.card-title a {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+a.blog-grid-title {
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+a.blog-grid-title:hover {
+    color: #bd2130;
+}
+
+ul.blog_list li a {
+    color: #bd2130;
+}
+
+/* //left side */
+
+/* left side */
+a.single-text {
+    font-size: 24px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+a.single-text:hover {
+    color: #bd2130;
+}
+
+.media img {
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.comment-top h4 {
+    color: #1f1f1f;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.comment-bottom {
+    background: #f7f7f7;
+    padding: 2em;
+    -webkit-box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+    -moz-box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+    box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+}
+
+.mobamuinfo_mail_grid_right textarea {
+    min-height: 180px;
+    resize: none;
+}
+
+.mobamuinfo_mail_grid_right button {
+    outline: none;
+    padding: 11px 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #bd2130;
+    border: none;
+    letter-spacing: 1px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.comment-bottom input[type="text"],
+.comment-bottom input[type="email"],
+.comment-bottom textarea {
+    padding: 12px 10px;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    outline: none;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.11);
+}
+
+/* //left side */
+
+/* responsive */
+@media(max-width: 991px) {
+    a.single-text {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 1080px) {
+    a.blog-grid-title {
+        font-size: 22px;
+    }
+
+    .posts-grid-right h4 a {
+        font-size: 15px;
+    }
+
+    a.single-text {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 1050px) {
+    a.text-cati-2 {
+        font-size: 14px;
+    }
+
+    a.blog-grid-title {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 736px) {
+    h6.blog-first {
+        font-size: 19px;
+    }
+
+    ul.blog_list li {
+        font-size: 15px;
+    }
+
+    a.blog-button {
+        font-size: 13px;
+        padding: 9px 20px;
+    }
+
+    .mobamuinfo_mail_grid_right textarea {
+        min-height: 150px;
+    }
+
+    .mobamuinfo_mail_grid_right input[type="text"],
+    .mobamuinfo_mail_grid_right input[type="email"],
+    .mobamuinfo_mail_grid_right textarea,
+    .mobamuinfo_mail_grid_right select {
+        font-size: 14px;
+    }
+
+    .mobamuinfo_mail_grid_right textarea {
+        min-height: 150px;
+    }
+
+    .mobamuinfo_mail_grid_right button {
+        padding: 14px 40px;
+        font-size: 14px;
+    }
+
+    .mobamuinfo_mail_grid_right {
+        padding: 2em;
+    }
+
+    a.single-text {
+        font-size: 21px;
+    }
+
+    a.blog-grid-title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 667px) {
+
+    .mobamuinfo_mail_grid_right input[type="text"],
+    .mobamuinfo_mail_grid_right input[type="email"],
+    .mobamuinfo_mail_grid_right textarea {
+        font-size: 14px;
+    }
+
+    .comment-top h4 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 568px) {
+    .mobamuinfo_mail_grid_right button {
+        padding: 14px 30px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 480px) {
+    a.blog-grid-title {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 440px) {
+    h6.blog-first {
+        font-size: 16px;
+    }
+
+    ul.blog_list li {
+        font-size: 14px;
+    }
+
+    a.single-text {
+        font-size: 20px;
+    }
+
+    .mobamuinfo_mail_grid_right,
+    .comment-bottom {
+        padding: 1.5em;
+    }
+}
+
+@media(max-width: 414px) {
+
+    .perso-wthree,
+    .info-commt {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .info-commt {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    .media {
+        display: inherit;
+        margin: 1.5em 0 !important;
+    }
+
+    .media-body {
+        margin-top: 12px;
+    }
+
+    .mobamuinfo_mail_grid_right button {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 384px) {
+
+    .mobamuinfo_mail_grid_right input[type="text"],
+    .mobamuinfo_mail_grid_right input[type="email"],
+    .mobamuinfo_mail_grid_right textarea,
+    .mobamuinfo_mail_grid_right select {
+        padding: 12px 9px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 375px) {
+    a.blog-grid-title {
+        font-size: 18px;
+    }
+
+    a.text-cati {
+        font-size: 14px;
+    }
+
+    .mobamuinfo_mail_grid_right textarea {
+        min-height: 120px;
+    }
+
+    .mobamuinfo_mail_grid_right {
+        padding: 1.5em;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .posts-grid-left,
+    .posts-grid-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .posts-grid-right {
+        margin-top: 1em;
+    }
+
+    h3.blog-title {
+        font-size: 21px;
+    }
+
+    .mobamuinfo_mail_grid_right input[type="text"],
+    .mobamuinfo_mail_grid_right input[type="email"],
+    .mobamuinfo_mail_grid_right textarea,
+    .mobamuinfo_mail_grid_right select {
+        font-size: 13px;
+    }
+}
+
+/* //responsive */
