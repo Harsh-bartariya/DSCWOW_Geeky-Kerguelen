@@ -1,0 +1,6 @@
+sir our idea is about mysore tourism 
+we are making a webapp which have different functionalities
+like all common features in a ticket booking tourism site will be there and additionally we provide a automated chat bot in our webapp so that people got a functionality to book their tickets by chatbot automated menu....they just need to provide the info through the menu of our bot.
+2nd thing is that we are provide a feature of traveler story in which people can post their experience pics media and other registered users can like or comment it will work when we webapp owner selcet best experience manually and show on site as testimonals 
+later we think to include some data association rules , and data warehousing concepts at backend to know people interst so that we got the most visited places and we can show them at top 
+later if we'll have time we include some other amazing features.

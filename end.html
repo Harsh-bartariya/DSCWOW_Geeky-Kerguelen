@@ -42,7 +42,7 @@
 					<label for="drop" class="toggle">Menu</label>
 					<input type="checkbox" id="drop" />
 					<ul class="menu">
-						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="end.html" class="active">Home</a></li>
 						<li><a href="#desti">Destinations</a></li>
 						<li>
 							<!-- First Tier Drop Down -->
@@ -65,7 +65,7 @@
 			<!-- //nav -->
 			<div class="banner-text text-right">
 				<div class="banner-bot">
-					<h1><a href="index.html" class="logo text-wh">Mysore toursim</a></h1>
+					<h1><a href="end.html" class="logo text-wh">Mysore toursim</a></h1>
 					<p class="text-bl text-li mt-3 border-bottom pb-4">Mysore (or Mysuru), a city in India's southwestern Karnataka state, was the capital of the Kingdom of Mysore from 1399 to 1947. In its center is opulent Mysore Palace, seat of the former ruling Wodeyar dynasty. </p>
 					<div class="social-icons mt-4">
 						<ul class="list-unstyled">
@@ -95,8 +95,10 @@
 								</a>
 							</li>
 						</ul>
-					</div>
-					<a href="signup.html" class="btn button-style">Join Us</a>
+					</div> <?php
+					$_SESSION['email']= $email;
+					?>
+					<a href="er/booking.html" class="btn button-style">Book Your Ticket Now!</a>
 				</div>
 			</div>
 		</div>
@@ -307,14 +309,14 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 col-8 footer-grid">
 					<h2 class="mb-3">
-						<a class="logo-footer tm-clr let" href="index.html">Mysore Tourism</a>
+						<a class="logo-footer tm-clr let" href="end.html">Mysore Tourism</a>
 					</h2>
 					<p>Culture, Art, Heritage, Wildlife and <br>Plan & Explore New World....</p>
 				</div>
 				<div class="offset-lg-1 col-lg-2 col-sm-6 col-4 footer-grid mt-lg-0 mt-4">
 					<ul class="list-unstyled">
 						<li>
-							<a href="index.html">Index</a>
+							<a href="end.html">Index</a>
 						</li>
 						<li class="my-2">
 							<a href="#about">About Us</a>
